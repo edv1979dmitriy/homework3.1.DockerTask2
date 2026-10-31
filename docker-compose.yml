@@ -1,0 +1,6 @@
+services:
+  db-api-for-docker:
+    build: .
+    image: openjdk:17-ea-17-slim
+    ports:
+      - '9999:9999'
